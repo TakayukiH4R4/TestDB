@@ -5,5 +5,6 @@ public class test {
 		dao.select("taro","123");
 		dao.selectAll();
 		dao.selectByName("taro");
+		dao.selectByPassword("123");
 	}
 }
