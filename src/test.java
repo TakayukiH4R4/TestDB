@@ -6,5 +6,6 @@ public class test {
 		dao.selectAll();
 		dao.selectByName("taro");
 		dao.selectByPassword("123");
+		dao.updateUserNameByUserName("taro", "saburo");
 	}
 }
